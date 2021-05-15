@@ -1,50 +1,78 @@
 <!-- Headings -->
-# first header
+# Heading one
+## Heading Two
+### Heading Three
+#### Heading Four
+##### Heading Five
+###### Heading Six
+
+
 
 <!-- Italics -->
-this is in *italics*
-this is in _italics_
+THis is a *line* in Italics
+
+THis is a _second line_ in Italics
+
 
 <!-- Strong -->
-this is in **bold**
-this is in __bold__
+This is **line** in Bold
 
-*__combine__*
+This is __Second Line__ in Bold
+
+This is _**mix**_ and *match* line
 
 <!-- Strikethrough -->
-~~strikethrough~~
+
+This is ~~strikethrough~~
 
 <!-- Horizontal Rule -->
 ___
+
 ---
 
+
 <!-- Blockquote -->
-> this is a block quote
+
+> THis is a Block QUote
+ 
+> This is Second Block Quote
+
+
 
 <!-- Links -->
-[Uttara Computers](https://uttaracomputers.com "uttara 1")
+[Uttara Computers](https:\\uttaracomputers.com "Uttara Computers 1")
 
-<!-- UL -->
-* item1
-* item2
-  * item21
-  * item22
-* item3
 
-<!-- OL -->
-1. Item1
-2. Item2
-    1. Item21
-    2. Item22
-4. Item3
+<!-- Unorderd List -->
+* List1
+  * List11
+  * List12
+* List2
+* List3
+  * List31
+  * List32
+
+
+<!-- Ordered List -->
+1. Ordered List1
+   1. Sub List11
+   2. Sub List12
+1. Ordered List2
+1. Ordered List3
+   1. Sub List31
+   2. Sub List32  
+
+
 
 <!-- Inline Code Block -->
-the code `print("hello world")` prints the line
+The line `print("hello World")` in python prints a line
+`<p>This is a paragraph</p>`
+
+`print("hello world`
+
 
 <!-- Images -->
-![Markdown Image](https://markdown-here.com/img/icon256.png)
-
-
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
 
 <!-- Code Blocks -->
@@ -54,13 +82,28 @@ def add(a,b):
 
 ```
 
+```bash
+  npm install
+
+  npm start
+```
+
+```javascript
+  function add(num1, num2) {
+    return num1 + num2;
+  }
+```
+
 
 
 <!-- Tables -->
-name | email
----- | -----
-K    | k@k.com
+Name          | Email
+------------  | ---------------
+Keshava       | keshava@uttaracomputers.com
+MLS Shastry   | mls.shastry@uttaracomputers.com
 
 <!-- Task List -->
-* [x] Task1
-* [ ] Task2
+* [X] Task1
+* [X] Task2
+* [ ] Task3
+   * [ ] Task31
